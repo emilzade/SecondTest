@@ -1,0 +1,273 @@
+*
+{
+    box-sizing: border-box ;
+    margin : 0 ;
+    padding : 0 ;
+}
+@font-face
+{
+    font-family : arial;
+    src : url(fonts/arial.ttf);
+}
+@font-face
+{
+    font-family : georgia;
+    src : url(fonts/Georgia.ttf);
+}
+.page1 img
+{
+    width : 100%;
+    position : relative;
+}
+.CozyHouse
+{
+    position : absolute;
+    top : 4vw;
+    left : 15vw;
+}
+.cozyhousename
+{
+    color : f1cdb3;
+    font-size : 32px;
+    line-height : px;
+    font-family : georgia ;
+}
+.cozyhousetext
+{
+    color : white;
+    font-family : arial ;
+    font-size : 13px;
+    line-height : 29px;
+}
+.navigation-items
+{
+    position:absolute;
+    top:5vw;
+    left : 55vw;
+    color : cdcdcd ;
+    font-size : 15px;
+    font-family : arial;
+    list-style: none ;
+    display : flex;
+}
+.navigation-items li{margin-right:3vw;}
+.navigation-items li:hover
+{
+    border-bottom-style: solid;
+    border-bottom-color: f1cdb3;
+    color : f1cdb3 ;
+    padding-bottom : 4px;
+}
+.page1text-container
+{
+    position:absolute;
+    top : 40vh ;
+    left : 12vw;
+}
+.page1header
+{
+    color : white;
+    font-family : georgia ;
+    font-size : 44px;
+}
+.page1text
+{
+    font-size : 15px;
+    color : cdcdcd;
+    font-family : arial;
+}
+.page1button
+{
+    font-size : 17px;
+    line-height : 30px;
+    font-family : georgia ;
+    background-color : f1cdb3 ;
+    border-radius : 100px;
+    width : 12vw;
+    border : 0px;
+}
+.page1button:hover
+{
+    background-color : fdc094;
+}
+.page1header , .page1text , .page1button{padding : 2%;}
+.page2
+{
+    display:flex;
+    justify-content: center;
+    margin-top : 8vh;
+}
+.page2header
+{
+    color:545454;
+    font-family : georgia;
+    font-size : 35px;
+    line-height:45px;
+    margin-top : 5vh;
+    margin-left : 2vw;
+}
+.page2text
+{
+    font-family : arial;
+    font-size : 15px;
+    line-height : 24px;
+    font-family :arial;
+    margin-top : 2vh;
+    margin-left : 2vw;
+}
+.page3
+{
+    margin-top:15vh;
+    background-color : f2f2f2;
+    text-align: center;
+}
+.page3text
+{
+    font-family : georgia;
+    font-size : 35px;
+    line-height : 45px;
+}
+.page3div
+{
+    display :flex;
+    justify-content:center;
+    margin-top : 5vh ;
+    text-align: center;
+}
+.animalname
+{
+    color : 545454;
+    font-size : 20px;
+    line-height : 45px;
+    font-family : georgia;
+}
+.jennifer
+{
+    margin-right:3%;
+    margin-left : 3%;
+}
+.katrine , .jennifer , .woody{transition: 0.5s;}
+.katrine:hover , .jennifer:hover , .woody:hover
+{
+    box-shadow: 0.1px 0.1px 8px 3px lightgray;
+}
+.page3button , .page3button1
+{
+    font-size : 17px;
+    line-height : 50px;
+    font-family : georgia ;
+    color : 292929;
+    border-color :f1cdb3;
+    border-style: solid;
+    width : 10vw;
+    background-color: white;
+    border-radius : 100px;
+    transition: 0.5s;
+}
+.page3button:hover , .page3button1:hover
+{
+    background-color :f1cdb3;
+}
+.page3button1
+{
+    margin-top:8vh;
+    width: 15vw;
+}
+.page4
+{
+    margin-top : 10vh;
+    text-align :center;
+    font-family : georgia;
+}
+.page4header
+{
+    font-size : 35px;
+    font-family : 45px;
+    color : 545454;
+}
+.page4div
+{
+    width : 60%;
+    margin : auto;
+}
+.div4
+{
+    width : 150px;
+    transition: 0.4s;
+    border-radius: 10px;
+    background-color:white;
+}
+.div4:hover
+{
+    background-color : fcebdf;
+}
+.page4top , .page4bottom
+{
+    display: flex;
+    justify-content:space-around;
+}
+.page4top{padding:5%;}
+.page5
+{
+    display: flex;
+    margin-top : 10%;
+    margin-bottom : 5%;
+    justify-content: center;
+}
+.page5header
+{
+    color : 545454 ;
+    font-family : 35px ;
+    font-family : georgia;
+    padding:2%;
+}
+.creditcard
+{
+    display:flex;
+    background-color : f1cdb3 ;
+    border-radius : 5px;
+    width :65%;
+    margin-left:2%;
+}
+.page5text-container{margin-left : 5% ;}
+.bankname{padding:2%;}
+.creditcard p{line-height : 26px;}
+.page5text
+{
+    font-size : 12px;
+    line-height : 18px;
+    color : b2b2b2 ;
+    font-family : arial;
+    padding : 2% ;
+}
+.ending-container
+{
+    position:relative;
+}
+.endingparts
+{
+    position:absolute;
+    top:15%;
+    left : 15%;
+    display : flex;
+}
+.locations
+{
+    display:flex;
+    padding: 10px;
+}
+.endtext
+{
+    font-family : georgia;
+    font-size : 30px;
+    line-height :35px;
+    color : white;
+    padding-left : 10px;
+}
+.ending2{margin-left : 200px;}
+.endinfo
+{
+    color : f1cdb3;
+    font-size : 16px;
+    font-family : georgia;
+}
